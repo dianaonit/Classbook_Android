@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">MyApp</string>
-    <string name="textViewtb1">Catalog școlar</string>
-    <string name="textViewTeacher">Profesor</string>
-    <string name="textViewStudent">Elev</string>
-    <string name="textViewParent">Părinte</string>
+        <string name="app_name">MyApp</string>
+        <string name="textViewcatalogscolar">Catalog școlar</string>
+        <string name="textViewTeacher">Profesor</string>
+        <string name="textViewStudent">Elev</string>
+        <string name="textViewParent">Părinte</string>
 
 </resources>
