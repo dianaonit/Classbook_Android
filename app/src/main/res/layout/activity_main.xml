@@ -1,148 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF2CC">
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/profileToolbar"
-        android:layout_width="match_parent"
+
+    <ImageView
+        android:id="@+id/ImageViewLanguage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/icons8_language_skill_100"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+   <Spinner
+       android:id="@+id/SpinnerLanguage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="5dp"
+       android:layout_marginTop="20dp"
+       app:layout_constraintRight_toLeftOf="@+id/ImageViewLanguage"
+       app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="115dp"
+        android:src="@drawable/icons8_male_user_100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:background="#CDA684"
-        android:elevation="10dp"
-        android:orientation="horizontal"/>
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bd_botton_black"
+        android:padding="5dp"
+        android:text="Sign In"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/textViewforgotPass"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-<!--    <ImageView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:id="@+id/profilebackBotton"-->
-<!--        -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:textColorHint="#000000"
+        android:theme="@style/myEditTextStyle"
+        app:layout_constraintBottom_toTopOf="@id/textInputLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_email_black"
+            android:hint="Email" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <!--        <TextView-->
-<!--            android:id="@+id/textViewtb1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center_vertical|start"-->
-<!--            android:text="@string/textViewtb1"-->
-<!--            android:textColor="#000000"-->
-<!--            android:textSize="23sp"-->
-<!--            android:textStyle="bold" />-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#000000"
+        android:theme="@style/myEditTextStyle"
+        app:layout_constraintBottom_toTopOf="@id/buttonSignIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_lock_black"
+            android:hint="Parolă"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-<!--        <Spinner-->
-<!--            android:id="@+id/spinner1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_gravity="center_vertical"-->
-<!--            android:layout_marginStart="140dp" />-->
+    <TextView
+        android:id="@+id/textViewforgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:text="Încă nu ai cont? Înregistrează-te!"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-<!--        <ImageView-->
-<!--            android:id="@+id/language"-->
-<!--            android:layout_width="39dp"-->
-<!--            android:layout_height="29dp"-->
-<!--            android:layout_gravity="center_vertical|end"-->
-<!--            android:contentDescription="@string/app_name"-->
-<!--            app:srcCompat="@drawable/icons8_language_50" />-->
-
-
-
-<!--    </androidx.appcompat.widget.Toolbar>-->
-
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/student"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:contentDescription="@string/app_name"-->
-    <!--        tools:srcCompat="@tools:sample/avatars" />-->
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/teacher"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:contentDescription="@string/app_name"-->
-    <!--        tools:srcCompat="@tools:sample/avatars[11]" />-->
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/parent"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:contentDescription="@string/app_name"-->
-    <!--        tools:srcCompat="@tools:sample/avatars[6]" />-->
-
-    <!--    -->
-
-
-    <!--    <TextView-->
-    <!--        android:id="@+id/textViewTeacher"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginTop="130dp"-->
-    <!--        android:text="@string/textViewTeacher"-->
-    <!--        android:textSize="17sp"-->
-    <!--        android:textStyle="bold"-->
-    <!--         />-->
-
-    <!--    <TextView-->
-    <!--        android:id="@+id/textViewStudent"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginTop="130dp"-->
-    <!--        android:text="@string/textViewStudent"-->
-    <!--        android:textSize="17sp"-->
-    <!--        android:textStyle="bold"-->
-    <!--         />-->
-
-    <!--    <TextView-->
-    <!--        android:id="@+id/textViewParent"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginTop="130dp"-->
-    <!--        android:text="@string/textViewParent"-->
-    <!--        android:textSize="17sp"-->
-    <!--        android:textStyle="bold"-->
-    <!--        />-->
-
-    <!--    <androidx.appcompat.widget.Toolbar-->
-    <!--        android:id="@+id/toolbar2"-->
-    <!--        android:layout_width="419dp"-->
-    <!--        android:layout_height="53dp"-->
-    <!--        android:layout_marginStart="1dp"-->
-    <!--        android:layout_marginLeft="1dp"-->
-    <!--        android:background="#CDA684"-->
-    <!--        android:contentDescription="@string/app_name"-->
-    <!--        android:minHeight="?attr/actionBarSize"-->
-    <!--        android:theme="?attr/actionBarTheme"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="1.0"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="1.0" />-->
-
-
-    <!--    <Spinner-->
-    <!--        android:id="@+id/spinner1"-->
-    <!--        android:layout_width="103dp"-->
-    <!--        android:layout_height="28dp"-->
-    <!--        android:layout_marginStart="270dp"-->
-    <!--        android:layout_marginLeft="270dp"-->
-    <!--        android:layout_marginTop="14dp"-->
-    <!--        android:layout_marginEnd="38dp"-->
-    <!--        android:layout_marginRight="38dp"-->
-    <!--        android:layout_marginBottom="13dp" />-->
-
-    <!--    -->
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/infoButton"-->
-    <!--        android:layout_width="49dp"-->
-    <!--        android:layout_height="45dp"-->
-    <!--        android:layout_marginTop="7dp"-->
-    <!--        android:contentDescription="@string/app_name"-->
-    <!--        app:srcCompat="@drawable/icons8_info_64" />-->
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
