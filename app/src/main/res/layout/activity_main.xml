@@ -43,19 +43,18 @@
 
     <Button
         android:id="@+id/buttonSignIn"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/bd_botton_black"
         android:padding="5dp"
-        android:text="Sign In"
+        android:text="@string/buttonSignIn"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/textViewforgotPass"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintBottom_toTopOf="@id/textViewCreateUser"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
@@ -74,7 +73,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_email_black"
-            android:hint="Email" />
+            android:hint="@string/textInputLayout2" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -94,24 +93,38 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_lock_black"
-            android:hint="Parolă"
+            android:hint="@string/textInputLayout"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textViewforgotPass"
+        android:id="@+id/textViewCreateUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="20dp"
         android:padding="10dp"
-        android:text="Încă nu ai cont? Înregistrează-te!"
+        android:text="@string/textViewCreateUser"
         android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/textViewHello"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

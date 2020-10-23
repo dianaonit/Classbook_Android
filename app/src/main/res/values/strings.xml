@@ -1,8 +1,34 @@
 <resources>
         <string name="app_name">MyApp</string>
-        <string name="textViewcatalogscolar">Catalog școlar</string>
+        <string name="textViewcatalogscolar">Alege un profil!</string>
         <string name="textViewTeacher">Profesor</string>
         <string name="textViewStudent">Elev</string>
         <string name="textViewParent">Părinte</string>
+        <string name="textViewHello">Bine ai venit!</string>
+        <string name="textViewCreateUser">Încă nu ai cont? Înregistrează-te!</string>
+        <string name="textInputLayout">Parolă</string>
+        <string name="textInputLayout2">Email</string>
+        <string name="buttonSignIn">Sign in</string>
+        <string name="Register">Înregistrare student</string>
+        <string name="firstName">Nume</string>
+        <string name="lastName">Prenume</string>
+        <string name="phone">Telefon</string>
+        <string name="Email">Email</string>
+        <string name="Password">Parolă</string>
+        <string name="Subject">Număr matricol</string>
+        <string name="textViewAlegeClasa">Fac parte din clasa: </string>
+        <string name="checkBoxA">A</string>
+        <string name="checkBoxB">B</string>
+        <string name="checkBoxC">C</string>
+        <string name="checkBoxD">D</string>
+        <string name="buttonRegister">Înregistrare</string>
+        <string name="Register1">Înregistrare părinte</string>
+        <string name="Subject1">Număr matricol copil</string>
+        <string name="Register2">Înregistrare profesor</string>
+        <string name="textViewAlegeClasa1">Predau clasei:</string>
+
+
+
+
 
 </resources>
