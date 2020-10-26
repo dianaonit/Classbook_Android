@@ -9,25 +9,19 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/ImageViewLanguage"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
-        android:src="@drawable/icons8_language_skill_100"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-   <Spinner
-       android:id="@+id/SpinnerLanguage"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:layout_marginRight="5dp"
-       android:layout_marginTop="20dp"
-       app:layout_constraintRight_toLeftOf="@+id/ImageViewLanguage"
-       app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/LanguageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@null"
+        android:padding="4dp"
+        android:visibility="visible"
+        android:src="@drawable/ic_baseline_language_24"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 
     <ImageView
         android:id="@+id/imageViewLogin"
@@ -73,7 +67,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_email_black"
-            android:hint="@string/textInputLayout2" />
+            android:hint="@string/textInputLayout2"
+            android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout

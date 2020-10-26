@@ -58,7 +58,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_baseline_face_24"
-            android:hint="@string/firstName" />
+            android:hint="@string/firstName"
+            android:inputType="textPersonName"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -78,7 +79,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_baseline_face_24"
-            android:hint="@string/lastName" />
+            android:hint="@string/lastName"
+            android:inputType="textPersonName"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -98,7 +100,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_baseline_local_phone_24"
-            android:hint="@string/phone" />
+            android:hint="@string/phone"
+            android:inputType="phone"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -118,7 +121,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_email_black"
-            android:hint="@string/Email" />
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -143,7 +147,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Subject"
+        android:id="@+id/Subject3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -159,7 +163,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/ic_baseline_pending_actions_24"
-            android:hint="@string/Subject" />
+            android:hint="@string/Subject3"
+            android:inputType="text"/>
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -167,7 +172,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/Subject"
+        app:layout_constraintTop_toBottomOf="@+id/Subject3"
         tools:ignore="MissingConstraints">
 
         <TextView

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyApp</string>
+    <string name="textViewcatalogscolar">Wähle ein Profil!</string>
+    <string name="textViewTeacher">Lehrer</string>
+    <string name="textViewStudent">Student</string>
+    <string name="textViewParent">Elternteil</string>
+    <string name="textViewHello">Herzlich willkommen!</string>
+    <string name="textViewCreateUser">Sie haben noch keinen Account? Anmelden!</string>
+    <string name="textInputLayout">Passwort</string>
+    <string name="textInputLayout2">Email</string>
+    <string name="buttonSignIn">Sich eintragen</string>
+    <string name="Register">Studentenregistrierung</string>
+    <string name="firstName">Name</string>
+    <string name="lastName">Vorname</string>
+    <string name="phone">Telefon</string>
+    <string name="Email">Email</string>
+    <string name="Password">Passwort</string>
+    <string name="Subject">Registrationsnummer</string>
+    <string name="textViewAlegeClasa">Sie sind Teil der Klasse:</string>
+    <string name="checkBoxA">A</string>
+    <string name="checkBoxB">B</string>
+    <string name="checkBoxC">C</string>
+    <string name="checkBoxD">D</string>
+    <string name="buttonRegister">Anmeldung</string>
+    <string name="Register1">Elternregistrierung</string>
+    <string name="Subject1">Studentenregistrierungsnummer</string>
+    <string name="Register2">Lehrerregistrierung</string>
+    <string name="textViewAlegeClasa1">Ich unterrichte die Klasse:</string>
+    <string name="Subject3">Subject</string>
+
+</resources>

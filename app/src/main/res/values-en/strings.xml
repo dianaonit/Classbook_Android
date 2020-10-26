@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="app_name">MyApp</string>
+    <string name="textViewcatalogscolar">Choose a profile!</string>
+    <string name="textViewTeacher">Teacher</string>
+    <string name="textViewStudent">Student</string>
+    <string name="textViewParent">Parent</string>
+    <string name="textViewHello">Welcome!</string>
+    <string name="textViewCreateUser" >Don\'t have an account yet? Sign up!</string>
+    <string name="textInputLayout">Password</string>
+    <string name="textInputLayout2">Email</string>
+    <string name="buttonSignIn">Sign in</string>
+    <string name="Register">Student registration</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="phone">Phone</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Subject">Registration number</string>
+    <string name="textViewAlegeClasa">Part of the class:</string>
+    <string name="checkBoxA">A</string>
+    <string name="checkBoxB">B</string>
+    <string name="checkBoxC">C</string>
+    <string name="checkBoxD">D</string>
+    <string name="buttonRegister">Registration</string>
+    <string name="Register1">Parent registration</string>
+    <string name="Subject1">Student registration number</string>
+    <string name="Register2">Teacher registration</string>
+    <string name="textViewAlegeClasa1">I teach the class:</string>
+    <string name="Subject3">Subject</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="textViewcatalogscolar">J\'enseigne la classe:</string>
+    <string name="textViewTeacher">Professeur</string>
+    <string name="textViewStudent">Étudiant</string>
+    <string name="textViewParent">Parent</string>
+    <string name="textViewHello">Bienvenue!!</string>
+    <string name="textViewCreateUser">Vous n\'avez pas encore de compte? S\'inscrire!</string>
+    <string name="textInputLayout">Mot de passe</string>
+    <string name="textInputLayout2">Email</string>
+    <string name="buttonSignIn">Se connecter</string>
+    <string name="Register">Inscription des étudiants</string>
+    <string name="firstName">Nom</string>
+    <string name="lastName">Prénom</string>
+    <string name="phone">Téléphone</string>
+    <string name="Email">Email</string>
+    <string name="Password">Mot de passe</string>
+    <string name="Subject">Numéro d/enregistrement</string>
+    <string name="textViewAlegeClasa">Ils font partie de la classe: </string>
+    <string name="checkBoxA">A</string>
+    <string name="checkBoxB">B</string>
+    <string name="checkBoxC">C</string>
+    <string name="checkBoxD">D</string>
+    <string name="buttonRegister">Enregistrement</string>
+    <string name="Register1">Inscription des parents</string>
+    <string name="Subject1">Numéro d\'inscription étudiant</string>
+    <string name="Register2">Inscription des enseignants</string>
+    <string name="textViewAlegeClasa1">J\enseigne la classe:</string>
+    <string name="Subject3">Matière</string>
+
+</resources>

@@ -9,7 +9,7 @@
         <string name="textInputLayout">Parolă</string>
         <string name="textInputLayout2">Email</string>
         <string name="buttonSignIn">Sign in</string>
-        <string name="Register">Înregistrare student</string>
+        <string name="Register">Înregistrare elev</string>
         <string name="firstName">Nume</string>
         <string name="lastName">Prenume</string>
         <string name="phone">Telefon</string>
@@ -23,9 +23,10 @@
         <string name="checkBoxD">D</string>
         <string name="buttonRegister">Înregistrare</string>
         <string name="Register1">Înregistrare părinte</string>
-        <string name="Subject1">Număr matricol copil</string>
+        <string name="Subject1">Număr matricol elev</string>
         <string name="Register2">Înregistrare profesor</string>
         <string name="textViewAlegeClasa1">Predau clasei:</string>
+        <string name="Subject3">Materia</string>
 
 
 
