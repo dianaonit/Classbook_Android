@@ -1,4 +1,4 @@
-# Classbook-in-Android
+
  „Classbook App” using Android Studio
  
 Technologies used: Java (Android Studio),	Firebase(non-relational Realtime Database)
