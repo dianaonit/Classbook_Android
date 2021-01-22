@@ -28,6 +28,51 @@
     <string name="Subject1">Studentenregistrierungsnummer</string>
     <string name="Register2">Lehrerregistrierung</string>
     <string name="textViewAlegeClasa1">Ich unterrichte die Klasse:</string>
-    <string name="Subject3">Subject</string>
+    <string name="Subject3">Betreff</string>
+    <string name="Language">Sprache auswählen ...</string>
+    <string name="languageTypeRo">Rumänisch</string>
+    <string name="languageTypeEn">Englisch</string>
+    <string name="languageTypeDe">Deutsche</string>
+    <string name="languageTypeFr">Französisch</string>
+    <string name="empty_errfName">Es ist notwendig, den Namen einzugeben!</string>
+    <string name="empty_errlName">Es ist notwendig, den Vornamen einzugeben!</string>
+    <string name="empty_errPhone">Es ist notwendig, die Telefonnummer einzugeben!</string>
+    <string name="empty_errEmail">Eine E-Mail-Adresse ist erforderlich!</string>
+    <string name="empty_errPass">Geben Sie ein Passwort ein!</string>
+    <string name="length_errPass">Das Passwort erfordert eine Mindestlänge von 6 Zeichen!</string>
+    <string name="empty_errSubject">Es ist notwendig, ein Thema einzuführen!</string>
+    <string name="reg_successful">Die Registrierung war erfolgreich!</string>
+    <string name="reg_failed">Registrierung fehlgeschlagen. Versuchen Sie es erneut!</string>
+    <string name="empty_regNr">Es ist notwendig, eine Seriennummer einzugeben!</string>
+    <string name="length_regNr">Die Seriennummer muss aus 5 Zeichen bestehen!</string>
+    <string name="login_failed">Anmeldefehler. Passwort oder E-Mail ist falsch!</string>
+    <string name="toast_chooseClass">Wählen Sie die Klassen, die Sie unterrichten!</string>
+    <string name="tv_grades">Katalog</string>
+    <string name="buttonLogout">Ausloggen</string>
+    <string name="subj_desc">Betreff:</string>
+    <string name="date_desc">Datum:</string>
+    <string name="regNr_desc">Registrationsnummer:</string>
+    <string name="grade_desc">Note:</string>
+    <string name="addgrade_tv">Neue Notizen hinzufügen</string>
+    <string name="tv_specification">Um die folgenden Felder auszufüllen:</string>
+    <string name="editTextSubject">Betreff</string>
+    <string name="editTextDate">Datum</string>
+    <string name="editTextregNr">Registrationsnummer</string>
+    <string name="editTextGrade">Note erhalten</string>
+    <string name="buttonAddGrade">Note hinzufügen</string>
+    <string name="buttonBack">Zurück zum Klassenbuch</string>
+    <string name="empty_errmSubj">Es ist notwendig, ein Thema einzuführen!</string>
+    <string name="empty_errmData">Ein Datum muss eingegeben werden!</string>
+    <string name="empty_errmRegNr">Es ist notwendig, die Registrierungsnummer einzugeben!</string>
+    <string name="length_errmRegNr">Die Seriennummer muss aus 5 Zeichen bestehen!</string>
+    <string name="empty_errmGrade">Eine Notiz muss eingegeben werden!</string>
+    <string name="length_errmGrade">Die Note kann nur zwischen 1 und 10 vergeben werden!</string>
+    <string name="insertgrade_successful">Der Notenrekord wurde erfolgreich eingefügt!</string>
+    <string name="insertgrade_faild">Die Notiz konnte nicht eingefügt werden..Versuchen Sie es erneut!</string>
+
+
+
+
+
 
 </resources>

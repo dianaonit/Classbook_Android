@@ -28,5 +28,49 @@
     <string name="Register2">Teacher registration</string>
     <string name="textViewAlegeClasa1">I teach the class:</string>
     <string name="Subject3">Subject</string>
+    <string name="Language">Choose language...</string>
+    <string name="languageTypeRo">Romanian</string>
+    <string name="languageTypeEn">English</string>
+    <string name="languageTypeDe">German</string>
+    <string name="languageTypeFr">French</string>
+    <string name="empty_errfName">It is necessary to enter the firstname!</string>
+    <string name="empty_errlName">It is necessary to enter the lastname!</string>
+    <string name="empty_errPhone">It is necessary to enter the phone number!</string>
+    <string name="empty_errEmail">An email address is required!</string>
+    <string name="empty_errPass">Enter a password!</string>
+    <string name="length_errPass">The password requires a minimum length of 6 characters!</string>
+    <string name="empty_errSubject">It is necessary to introduce a subject!</string>
+    <string name="reg_successful">The registration was successful!</string>
+    <string name="reg_failed">Registration failed. Try again!</string>
+    <string name="empty_regNr">It is necessary to enter a serial number!</string>
+    <string name="length_regNr">Registration number must be 5 characters!</string>
+    <string name="login_failed">Login error. Password or email is incorrect!</string>
+    <string name="toast_chooseClass">Choose the classes you teach!</string>
+    <string name="tv_grades">Classbook</string>
+    <string name="buttonLogout">Log out</string>
+    <string name="subj_desc">Subject:</string>
+    <string name="date_desc">Date:</string>
+    <string name="regNr_desc">Registration number:</string>
+    <string name="grade_desc">Grade:</string>
+    <string name="addgrade_tv">Add new grades</string>
+    <string name="tv_specification">Fill in the following fields:</string>
+    <string name="editTextSubject">Subject</string>
+    <string name="editTextDate">Date</string>
+    <string name="editTextregNr">Registration number</string>
+    <string name="editTextGrade">Grade obtained</string>
+    <string name="buttonAddGrade">Add grade</string>
+    <string name="buttonBack">Back to classbook</string>
+    <string name="empty_errmSubj">It is necessary to introduce a subject!</string>
+    <string name="empty_errmData">A date must be entered!</string>
+    <string name="empty_errmRegNr">It is necessary to enter the registration number!</string>
+    <string name="length_errmRegNr">Registration number must be 5 characters!</string>
+    <string name="empty_errmGrade">A grade must be entered!</string>
+    <string name="length_errmGrade">The grade can only be given between 1 and 10!</string>
+    <string name="insertgrade_successful">The grade record has been inserted successfully!</string>
+    <string name="insertgrade_faild">The grade could not be inserted..Try again!</string>
+
+
+
+
 
 </resources>

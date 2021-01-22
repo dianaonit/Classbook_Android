@@ -16,7 +16,7 @@
     <string name="phone">Téléphone</string>
     <string name="Email">Email</string>
     <string name="Password">Mot de passe</string>
-    <string name="Subject">Numéro d/enregistrement</string>
+    <string name="Subject">Numéro \'enregistrement</string>
     <string name="textViewAlegeClasa">Ils font partie de la classe: </string>
     <string name="checkBoxA">A</string>
     <string name="checkBoxB">B</string>
@@ -26,7 +26,50 @@
     <string name="Register1">Inscription des parents</string>
     <string name="Subject1">Numéro d\'inscription étudiant</string>
     <string name="Register2">Inscription des enseignants</string>
-    <string name="textViewAlegeClasa1">J\enseigne la classe:</string>
+    <string name="textViewAlegeClasa1">J\'enseigne la classe:</string>
     <string name="Subject3">Matière</string>
+    <string name="Language">Choisir la langue ..</string>
+    <string name="languageTypeRo">Roumain</string>
+    <string name="languageTypeEn">Anglais</string>
+    <string name="languageTypeDe">Allemand</string>
+    <string name="languageTypeFr">Français</string>
+    <string name="empty_errfName">Il faut entrer le nom!</string>
+    <string name="empty_errlName">Il est nécessaire de saisir le prénom!</string>
+    <string name="empty_errPhone">Il est nécessaire de saisir le numéro de téléphone!</string>
+    <string name="empty_errEmail">Une adresse email est requise!</string>
+    <string name="empty_errPass">Entrer un mot de passe!</string>
+    <string name="length_errPass">Le mot de passe nécessite une longueur minimale de 6 caractères!</string>
+    <string name="empty_errSubject">Il faut introduire un sujet!</string>
+    <string name="reg_successful">L\'enregistrement a réussi!</string>
+    <string name="reg_failed">L\'enregistrement a échoué. Veuillez réessayer!</string>
+    <string name="empty_regNr">Il est nécessaire de saisir un numéro de série!</string>
+    <string name="length_regNr">Le numéro d\'enregistrement doit être composé de 5 caractères!</string>
+    <string name="login_failed">Erreur de connexion. Le mot de passe ou l\'adresse e-mail est incorrect!</string>
+    <string name="toast_chooseClass">Choisissez les cours que vous enseignez!</string>
+    <string name="tv_grades">Catalogue</string>
+    <string name="buttonLogout">Se déconnecter</string>
+    <string name="subj_desc">Matériel:</string>
+    <string name="date_desc">Date:</string>
+    <string name="regNr_desc">Numéro d\'enregistrement:</string>
+    <string name="grade_desc">Note:</string>
+    <string name="addgrade_tv">Ajouter de nouvelles notes</string>
+    <string name="tv_specification">Pour remplir les champs suivants</string>
+    <string name="editTextSubject">Matériel</string>
+    <string name="editTextDate">Date</string>
+    <string name="editTextregNr">Numéro d\'enregistrement</string>
+    <string name="editTextGrade">Note obtenue</string>
+    <string name="buttonAddGrade">Ajouter une note</string>
+    <string name="buttonBack">Retour au classbook</string>
+    <string name="empty_errmSubj">Il faut introduire un sujet!</string>
+    <string name="empty_errmData">Une date doit être saisie!</string>
+    <string name="empty_errmRegNr">Il est nécessaire de saisir le numéro d\'enregistrement!</string>
+    <string name="length_errmRegNr">Le numéro d\'enregistrement doit être composé de 5 caractères!</string>
+    <string name="empty_errmGrade">Une note doit être saisie!</string>
+    <string name="length_errmGrade">La note ne peut être donnée qu\'entre 1 et 10!</string>
+    <string name="insertgrade_successful">L\'enregistrement de note a été inséré avec succès!</string>
+    <string name="insertgrade_faild">La note n\'a pas pu être insérée..réessayez!</string>
+
+
+
 
 </resources>

@@ -12,6 +12,7 @@
         <activity android:name=".DetailsActivity">
 
         </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +31,19 @@
         </activity>
 
         <activity android:name=".CreateAccountParent">
+
+        </activity>
+
+        <activity android:name=".ViewWeb">
+
+        </activity>
+
+        <activity android:name=".GradeActivity">
+
+
+        </activity>
+
+        <activity android:name=".NewGradeActivity">
 
         </activity>
 

@@ -59,12 +59,21 @@ public class DetailsActivity extends AppCompatActivity {
         });
 
 
+//        ImageButton HelpButton=(ImageButton) findViewById(R.id.HelpButton);
+//        HelpButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://econ.elearning.ubbcluj.ro/moodle/"));
+//                startActivity(browserIntent);
+//            }
+//        });
+
         ImageButton HelpButton=(ImageButton) findViewById(R.id.HelpButton);
         HelpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent=new Intent(Intent.ACTION_VIEW, Uri.parse("https://econ.elearning.ubbcluj.ro/moodle/"));
-                startActivity(browserIntent);
+                Intent intent = new Intent(DetailsActivity.this, ViewWeb.class);
+                DetailsActivity.this.startActivity(intent);
             }
         });
 
